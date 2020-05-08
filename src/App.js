@@ -21,6 +21,7 @@ function App() {
     });
 
     const repository = response.data;
+    console.log(respository);
 
     setRepository([...repositorys, repository]);
   }
